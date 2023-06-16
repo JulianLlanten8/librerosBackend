@@ -5,6 +5,18 @@
 ![Alt text](public/Libros-online.png)
 
 ## Para ejecutar el backend debe segir los siguientes pasos
+1. clone este repositorio.
+2. cree una base de datos mysql de nombre = librerialibros 
+3. configure su archivo .env
+
+```sh
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=librerialibros 
+DB_USERNAME=root
+DB_PASSWORD=
+```
 
 ```sh
 composer installl
